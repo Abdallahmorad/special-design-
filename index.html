@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start landing page  -->
+    <div class="landing-page" id="landing-page">
+      <div class="overlay"></div>
+      <header>
+        <div class="logo">Special Design</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="" class="active changeable-color" data-section=".about"
+                >About</a
+              >
+            </li>
+            <li><a href="" data-section=".skills-page">Skills</a></li>
+            <li><a href="" data-section=".gallery-page">Gallery</a></li>
+            <li><a href="" data-section=".timeline">Timeline</a></li>
+            <li><a href="" data-section=".feature">Features</a></li>
+            <li><a href="" data-section=".testimonials">Testimonials</a></li>
+          </ul>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+      </header>
+
+      <section class="intro-text">
+        <div class="container">
+          <h3>We Are <span class="changeable-color">Creative</span> Agency</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            consequatur nobis numquam soluta itaque vitae mollitia id eveniet
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- starting setting box -->
+    <div class="side-bar" id="side-bar">
+      <div class="setting-box"><i class="fa-solid fa-gear"></i></div>
+      <div class="colors-box">
+        <h4>Colors</h4>
+        <div class="colors">
+          <div id="pink" data-id="#fc3c6e"></div>
+          <div id="orange" data-id="#ffa403"></div>
+          <div id="green-1" data-id="#028f93"></div>
+          <div id="blue" data-id="#04a7fe"></div>
+          <div id="green" data-id="#4fa95b"></div>
+        </div>
+      </div>
+
+      <div class="random-background-box">
+        <h4>Background Option</h4>
+        <div class="btns">
+          <button class="yes" data-background="yes">Yes</button>
+          <button class="no" data-background="no">No</button>
+        </div>
+      </div>
+
+      <div class="testing-option">
+        <h4>Show Bullets Option</h4>
+        <div class="btns">
+          <button class="yes" data-test="yes">Yes</button>
+          <button class="no" data-test="no">No</button>
+        </div>
+      </div>
+
+      <button class="reset">Reset</button>
+    </div>
+
+    <!-- end setting box -->
+    <!-- end landing page  -->
+
+    <!-- start About us Page  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="text">
+          <h2 class="changeable-color">About Us</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+            porro, ducimus esse hic consequuntur illum sed doloremque eius
+            cumque impedit! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Adipisci, quos.
+          </p>
+        </div>
+        <div class="image">
+          <img src="imgs/about-us.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end About us Page  -->
+
+    <!-- start our skills page  -->
+    <section class="skills-page" id="skills">
+      <div class="container">
+        <h2 class="changeable-color">Our skills</h2>
+
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <div
+              class="progress changeable-background-color"
+              data-progress="90%"
+            ></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <div
+              class="progress changeable-background-color"
+              data-progress="75%"
+            ></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">JAVASCRIPT</div>
+          <div class="skill-progress">
+            <div
+              class="progress changeable-background-color"
+              data-progress="80%"
+            ></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">PYTHON</div>
+          <div class="skill-progress">
+            <div
+              class="progress changeable-background-color"
+              data-progress="70%"
+            ></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">REACT JS</div>
+          <div class="skill-progress">
+            <div
+              class="progress changeable-background-color"
+              data-progress="80%"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end our skills page  -->
+
+    <!-- start gallery page  -->
+    <section class="gallery-page" id="gallery">
+      <div class="container">
+        <h2 class="changeable-color">Our Gallery</h2>
+        <div class="images">
+          <img src="imgs/01.jpg" alt="Image One" />
+          <img src="imgs/02.jpg" alt="Image two" />
+          <img src="imgs/03.jpg" alt="Image Three" />
+          <img src="imgs/04.jpg" alt="Image Four" />
+          <img src="imgs/05.jpg" alt="Image Five" />
+          <img src="imgs/06.png" alt="Image Six" />
+          <img src="imgs/07.jpg" alt="Image Seven" />
+          <img src="imgs/08.jpg" alt="Image Eight" />
+          <img src="imgs/09.jpg" alt="Image Nine" />
+          <img src="imgs/10.jpg" alt="Image Ten" />
+        </div>
+      </div>
+    </section>
+
+    <!-- end gallery page  -->
+
+    <!-- start timeLine page  -->
+    <section class="timeline" id="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="line changeable-background-color"></div>
+          <div class="year changeable-background-color">2023</div>
+          <div class="left">
+            <div class="circle .changeable-color-border"></div>
+            <div class="content">
+              <h2 class="changeable-color">Testing Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                quos quis minima consectetur quas quia quo eius. Vitae
+                praesentium veniam explicabo beatae. Dolores nobis obcaecati
+                voluptate quos! Perferendis, sequi at.
+              </p>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="circle"></div>
+            <div class="content">
+              <h2 class="changeable-color">Testing Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                quos quis minima consectetur quas quia quo eius. Vitae
+                praesentium veniam explicabo beatae. Dolores nobis obcaecati
+                voluptate quos! Perferendis, sequi at.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year changeable-background-color">2024</div>
+          <div class="left">
+            <div class="circle"></div>
+            <div class="content">
+              <h2 class="changeable-color">Testing Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                quos quis minima consectetur quas quia quo eius. Vitae
+                praesentium veniam explicabo beatae. Dolores nobis obcaecati
+                voluptate quos! Perferendis, sequi at.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="circle"></div>
+            <div class="content">
+              <h2 class="changeable-color">Testing Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                quos quis minima consectetur quas quia quo eius. Vitae
+                praesentium veniam explicabo beatae. Dolores nobis obcaecati
+                voluptate quos! Perferendis, sequi at.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end timeLine page  -->
+
+    <!-- start feature page  -->
+    <section class="feature" id="feature">
+      <div class="container">
+        <h2 class="changeable-color">Our Feature</h2>
+
+        <div class="feature-boxes">
+          <div class="box">
+            <img src="imgs/Icon_01.png" alt="" />
+            <div class="title">Development</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/Icon_02.png" alt="" />
+            <div class="title">Wep Application</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/Icon_03.png" alt="" />
+            <div class="title">Marketing</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/Icon_04.png" alt="" />
+            <div class="title">Database</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/Icon_05.png" alt="" />
+            <div class="title">Cloud and servers</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+          <div class="box">
+            <img src="imgs/Icon_06.png" alt="" />
+            <div class="title">Seo</div>
+            <div class="underline changeable-background-color"></div>
+            <p>
+              We Are Professional Marketers ,We Will <br />
+              Do Anything You Imagine In No Time
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end feature page  -->
+
+    <!-- start 
+ -->
+    <section class="testimonials" id="testimonials">
+      <div class="overlay-gray"></div>
+      <div class="overlay-changeable changeable-background-color"></div>
+      <div class="container">
+        <h3>Testimonials</h3>
+        <div class="boxes">
+          <div class="box">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod,
+              optio!
+            </p>
+            <div class="info">
+              <div class="pixel"></div>
+              <div class="titels">
+                <div class="name">Ahmed Mosaad</div>
+                <div class="extra">CEO At Company</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod,
+              optio!
+            </p>
+            <div class="info">
+              <div class="pixel"></div>
+              <div class="titels">
+                <div class="name">Mohamed Ahmed</div>
+                <div class="extra">CEO At Company</div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod,
+              optio!
+            </p>
+            <div class="info">
+              <div class="pixel"></div>
+              <div class="titels">
+                <div class="name">Ibrahim Mahmoud</div>
+                <div class="extra">CEO At Company</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonials -->
+
+    <!-- start navigation bar -->
+    <div class="nav">
+      <div class="nav-bullets">
+        <div class="bullet" data-section=".about">
+          <div class="tooltip changeable-background-color">About</div>
+        </div>
+        <div class="bullet" data-section=".skills-page">
+          <div class="tooltip changeable-background-color">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery-page">
+          <div class="tooltip changeable-background-color">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+          <div class="tooltip changeable-background-color">TimeLine</div>
+        </div>
+        <div class="bullet" data-section=".feature">
+          <div class="tooltip changeable-background-color">Feature</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+          <div class="tooltip changeable-background-color">Testimonials</div>
+        </div>
+      </div>
+    </div>
+    <!-- end navigation bar -->
+
+    <!-- start contact us -->
+    <section class="contact">
+      <div class="container">
+        <h2 class="changeable-color">Contact Us</h2>
+        <div class="content">
+          <form action="">
+            <input type="text" placeholder="Your Name" required />
+            <input type="text" placeholder="Your Phone" required />
+            <input type="email" placeholder="Your Email" required />
+            <input type="text" placeholder="Subject" required />
+          </form>
+          <div class="text">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message
+            "
+            ></textarea>
+            <button class="changeable-background-color">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact us -->
+    <footer>Created With Love By Abdallah Morad</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
